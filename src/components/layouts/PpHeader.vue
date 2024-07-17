@@ -8,26 +8,13 @@ import PpButtonLink from "../ui/PpButtonLink.vue";
       <nav class="page-header__nav">
         <ul class="page-header__nav-col">
           <li class="page-header__nav-items">
-            <PpButtonLink
-              class="page-header__logo"
-              :is-icon-only="false"
-              button-text="Perfect-Pic"
-              link="#"
-            />
+            <a class="page-header__logo" href="#">Perfect-Pic</a>
           </li>
           <li class="page-header__nav-items">
-            <PpButtonLink
-              :is-icon-only="false"
-              button-text="About Us"
-              link="#"
-            />
+            <a href="#">About Us</a>
           </li>
           <li class="page-header__nav-items">
-            <PpButtonLink
-              :is-icon-only="false"
-              button-text="Contact"
-              link="#"
-            />
+            <a href="#">Contact Us</a>
           </li>
         </ul>
         <ul class="page-header__nav-col">
